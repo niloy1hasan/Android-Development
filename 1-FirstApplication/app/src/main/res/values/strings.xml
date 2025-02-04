@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">First Application</string>
+    <string name="user_name">Niloy Hasan</string>
+    <string name="user_name2">Mukta Hasan</string>
+    <string name="short_Description">What Is Artificial Intelligence?\n\n
+Artificial intelligence refers to computer systems that are capable of performing tasks traditionally associated with human intelligence — such as making predictions, identifying objects, interpreting speech and generating natural language. AI systems learn how to do so by processing massive amounts of data and looking for patterns to model in their own decision-making. In many cases, humans will supervise an AI’s learning process, reinforcing good decisions and discouraging bad ones, but some AI systems are designed to learn without supervision.\n
+\n
+Over time, AI systems improve on their performance of specific tasks, allowing them to adapt to new inputs and make decisions without being explicitly programmed to do so. In essence, artificial intelligence is about teaching machines to think and learn like humans, with the goal of automating work and solving problems more efficiently.\n\n
+
+
+How Does AI Work?\n\n
+Artificial intelligence systems work by using algorithms and data. First, a massive amount of data is collected and applied to mathematical models, or algorithms, which use the information to recognize patterns and make predictions in a process known as training. Once algorithms have been trained, they are deployed within various applications, where they continuously learn from and adapt to new data. This allows AI systems to perform complex tasks like image recognition, language processing and data analysis with greater accuracy and efficiency over time.
+\n\n
+Machine Learning\n\n
+The primary approach to building AI systems is through machine learning (ML), where computers learn from large datasets by identifying patterns and relationships within the data. A machine learning algorithm uses statistical techniques to help it “learn” how to get progressively better at a task, without necessarily having been programmed for that certain task. It uses historical data as input to predict new output values. Machine learning consists of both supervised learning (where the expected output for the input is known thanks to labeled data sets) and unsupervised learning (where the expected outputs are unknown due to the use of unlabeled data sets).
+\n\n
+Neural Networks\n\n
+Machine learning is typically done using neural networks, a series of algorithms that process data by mimicking the structure of the human brain. These networks consist of layers of interconnected nodes, or “neurons,” that process information and pass it between each other. By adjusting the strength of connections between these neurons, the network can learn to recognize complex patterns within data, make predictions based on new inputs and even learn from mistakes. This makes neural networks useful for recognizing images, understanding human speech and translating words between languages.
+\n\n
+Deep Learning\n\n
+Deep learning is an important subset of machine learning. It uses a type of artificial neural network known as deep neural networks, which contain a number of hidden layers through which data is processed, allowing a machine to go “deep” in its learning and recognize increasingly complex patterns, making connections and weighting input for the best results. Deep learning is particularly effective at tasks like image and speech recognition and natural language processing, making it a crucial component in the development and advancement of AI systems.
+\n\n
+Natural Language Processing\n\n
+Natural language processing (NLP) involves teaching computers to understand and produce written and spoken language in a similar manner as humans. NLP combines computer science, linguistics, machine learning and deep learning concepts to help computers analyze unstructured text or voice data and extract relevant information from it. NLP mainly tackles speech recognition and natural language generation, and it’s leveraged for use cases like spam detection and virtual assistants.
+\n\n
+Computer Vision\n\n
+Computer vision is another prevalent application of machine learning techniques, where machines process raw images, videos and visual media, and extract useful insights from them. Deep learning and convolutional neural networks are used to break down images into pixels and tag them accordingly, which helps computers discern the difference between visual shapes and patterns. Computer vision is used for image recognition, image classification and object detection, and completes tasks like facial recognition and detection in self-driving cars and robots.
+\n\n
+
+
+Why Is Artificial Intelligence Important?\n\n
+Artificial intelligence aims to provide machines with similar processing and analysis capabilities as humans, making AI a useful counterpart to people in everyday life. AI is able to interpret and sort data at scale, solve complicated problems and automate various tasks simultaneously, which can save time and fill in operational gaps missed by humans.
+\n
+AI serves as the foundation for computer learning and is used in almost every industry — from healthcare and finance to manufacturing and education — helping to make data-driven decisions and carry out repetitive or computationally intensive tasks.
+\n
+Many existing technologies use artificial intelligence to enhance capabilities. We see it in smartphones with AI assistants, e-commerce platforms with recommendation systems and vehicles with autonomous driving abilities. AI also helps protect people by piloting fraud detection systems online and robots for dangerous jobs, as well as leading research in healthcare and climate initiatives.</string>
+</resources>

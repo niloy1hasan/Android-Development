@@ -1,0 +1,71 @@
+# Ignore Android Studio project files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore Gradle and build-related files
+.gradle/
+**/build/
+**/out/
+gradle/wrapper/gradle-wrapper.jar
+
+# Ignore APKs and AABs
+*.apk
+*.aab
+*.ap_
+
+# Ignore local properties and signing keys
+local.properties
+**/keystore.*
+**/gradle-local.properties
+
+# Ignore dependency caches
+**/.cxx/
+**/.externalNativeBuild/
+
+# Ignore generated assets
+**/app/src/main/assets/
+**/app/src/main/res/raw/
+
+# Ignore Kotlin/Java binary files
+*.class
+*.dex
+
+# Ignore log files and crash reports
+*.log
+/crashlytics-build.properties
+fabric.properties
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Ignore IDE settings (JetBrains, VSCode)
+.idea/
+.vscode/
+
+# Ignore Node.js files (if using React Native)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore test output
+**/test-output/
+
+# Keep the main .gitignore but ignore others inside subdirectories
+**/.gitignore
+!.gitignore
+
+# Ignore build folders
+1-FirstApplication/app/build/
+1-FirstApplication/.gradle/
+
+# Ignore Gradle wrapper files
+1-FirstApplication/gradlew
+1-FirstApplication/gradlew.bat
+1-FirstApplication/gradle/wrapper/
+
+# Ignore IDE files (if any)
+1-FirstApplication/.idea/
