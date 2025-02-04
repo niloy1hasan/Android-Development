@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        android:hint="Type Your Name"
+        />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:textSize="20sp"
+        android:hint="Type Number1"
+        android:backgroundTint="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:textSize="20sp"
+        android:hint="Type Number2"
+        android:backgroundTint="@color/black"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/plusBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="+"
+            android:textSize="23sp" />
+
+        <Button
+            android:id="@+id/minusBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="-"
+            android:textSize="23sp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        />
+
+
+
+</LinearLayout>
