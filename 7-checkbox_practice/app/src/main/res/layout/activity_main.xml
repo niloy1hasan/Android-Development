@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/question1"
+      android:textSize="20sp"
+        android:padding="10dp"/>
+
+    <CheckBox
+        android:id="@+id/milkcheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Milk"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/eggcheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Egg"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/buiskitcheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Biscuits"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/breadcheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Bread"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/showButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        android:textSize="22sp"
+        android:padding="5sp"
+        />
+
+    <TextView
+        android:id="@+id/resultTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:textSize="22sp"
+        />
+
+
+
+</LinearLayout>
